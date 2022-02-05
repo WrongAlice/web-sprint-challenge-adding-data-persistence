@@ -111,9 +111,15 @@ Build an API inside the `api` folder with endpoints for:
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+The difference between relational databases and SQL is that relational databases are structured, whereas SQL is a query language.
+
 2. Why do tables need a Primary Key?
+Tables need a primary key so that they can be uniquely identified, and they can be referenced by other tables.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+The name given to a table column that references the Primary Key on another table is called a foreign key.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+We need a table that has a foreign key referencing the Primary Key of the first table, and a table that has a foreign key referencing the Primary Key of the second table.
 
-
-//just a test comment
+// HEY to TAJA - my repo last sprint was connected to the module 1 project and not the sprint challenge. I have Zac looking into how this happened but i think it was an error in Canvas, since we were having many many issues with submitting all projects leading up to the sprint challenge.
