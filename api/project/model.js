@@ -1,4 +1,4 @@
-/const db = require('../../data/dbConfig.js'); // import the database
+const db = require('../../data/dbConfig.js'); // import the database
 
 function getProjects() { // get all projects
     return db('projects') // return all projects

@@ -1,4 +1,5 @@
-exports.up = async function(knex) { // 
+
+exports.up = async function(knex) { 
   await knex.schema 
     .createTable('projects', table => { 
       table.increments('project_id'); 
@@ -6,7 +7,7 @@ exports.up = async function(knex) { //
             .notNullable(); 
             table.string('project_description');  
             table.boolean('project_completed')  
-            .defaultTo(0);    
+            .defaultTo(0);   
     })
     .createTable('resources',table => {   
       table.increments('resource_id')   
