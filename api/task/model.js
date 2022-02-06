@@ -3,13 +3,13 @@
 const db = require('../../data/dbConfig');
 
 async function getTasks() {
-    const tasks = await db('tasks as t')
-        .join('projects as p', 
-            't.project_id', 
-            'p.project_id'
+    const tasks = await db('tasks as t') 
+        .join('projects as p', // join projects table
+            't.project_id', // join on project_id
+            'p.project_id' // join on project_id
         )
         .select(
-           't.task_id',
+           't.task_id', 
            't.task_description',
            't.task_notes', 
            't.task_completed',
