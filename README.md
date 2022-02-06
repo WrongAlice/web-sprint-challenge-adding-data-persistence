@@ -122,4 +122,4 @@ The name given to a table column that references the Primary Key on another tabl
 4. What do we need in order to have a _many to many_ relationship between two tables?
 We need a table that has a foreign key referencing the Primary Key of the first table, and a table that has a foreign key referencing the Primary Key of the second table.
 
-// HEY to TAJA - my repo last sprint was connected to the module 1 project and not the sprint challenge. I have Zac looking into how this happened but i think it was an error in Canvas, since we were having many many issues with submitting all projects leading up to the sprint challenge.
+// HEY to TAJA - my repo last sprint was connected to the module 1 project and not the sprint challenge. I have Zac looking into how this happened but i think it was an error in Canvas since we were all having many many issues with submitting all projects leading up to the sprint challenge. However is there any way to get my sprint 1 re assessed?
